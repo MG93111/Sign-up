@@ -1,0 +1,12 @@
+div {
+    margin: auto;
+    width: 50%;
+}
+
+button {
+    border: solid grey;
+    margin: 5px;
+    width: 22%;
+    padding: 3px;
+    text-align: center;
+}

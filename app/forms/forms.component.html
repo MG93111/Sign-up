@@ -1,0 +1,13 @@
+<div >
+    <p><input type="text" placeholder="First name" #firstName required >
+        <input type="text" placeholder="Last name" #lastName required></p>
+    <p><input type="email" placeholder="Email address" #email required>
+        <input type="password" placeholder="Password" #password required ></p>
+</div>
+
+<div let mer = "a">{{firstName.value}} <br>
+    {{lastName.value}} <br>
+    {{email.value}} </div>
+
+<button (click)="checkData()">Save</button>
+

@@ -1,0 +1,14 @@
+div {
+    margin: auto;
+    width: 50%;
+}
+input {
+    border: solid grey;
+    margin: 5px;
+    padding: 3px;
+    text-align: center;
+}
+
+/* input:invalid {
+    border: 12px solid red;
+} */
